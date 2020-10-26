@@ -16,9 +16,7 @@ int yDrop = 50;
 float xDrop = 55;
   // width and height for squares
 float RandNumber;
-int waifu = 150;
-int tsundere= 150;
-int yandere = 5;
+
   void setup() {
     size(1500, 1500);
   }
