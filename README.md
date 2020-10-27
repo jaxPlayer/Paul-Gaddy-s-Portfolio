@@ -1,3 +1,4 @@
+<a href="https://media-exp1.licdn.com/dms/image/C4D16AQGNPBtTJ6IYiA/profile-displaybackgroundimage-shrink_350_1400/0?e=1609372800&v=beta&t=Anh19MghZAcMPGCf5AT7BeqWv5rSLmd0RBgWsandrEg"></a>
 My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School in the Bronx, New York. I've been interested in computers since 7th grade when we did basic web development. Since then, I've greatly improved my CS skills in a wide array of areas from processing to basic web development to game development to Android development to Java(basic) to Python(basic) to Firebase to AI as well as a few others. Here are my best projects
 
 
