@@ -1,7 +1,8 @@
 My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School in the Bronx, New York. I've been interested in computers since 7th grade when we did basic web development. Since then, I've greatly improved my CS skills in a wide array of areas from processing to basic web development to game development to Android development to Java(basic) to Python(basic) to Firebase to AI as well as a few others. Here are my best projects
 
 
-<a href="https://ibb.co/QPPpJSQ"><img src="https://i.ibb.co/QPPpJSQ/Screen-Shot-2020-10-26-at-18-55-51.png" alt="Screen-Shot-2020-10-26-at-18-55-51" border="0" width="300px" height="150px"></a>
+<a href="https://ibb.co/QPPpJSQ"><img src="https://i.ibb.co/QPPpJSQ/Screen-Shot-2020-10-26-at-18-55-51.png" alt="Screen-Shot-2020-10-26-at-18-55-51" border="0" width="300px" height="150px" display="block" margin-left="auto" margin-right="auto" width="50%"
+                                      ></a>
 
 * This is the shooter game I made in 9th grade. You use the spacebar to navigate and each time you land a hit on the alien, you gain a point. If you miss too many times, you lose a turn and the game ends. (Javascript, p5.js)
 
