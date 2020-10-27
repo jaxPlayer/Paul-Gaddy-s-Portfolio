@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="public/welcome.css">
+  <meta charset="utf-8" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header id="headerStyle">
+    <a class="logo " href="explore.html"><img src="Logo.png" alt="logo" id="logoStyle"></a>
+    <nav>
+      <ul id="navItems" class="nav__links">
+        <li><a href="userProfiles.html">Explore</a></li>
+        <li><a href="contact.html">Coaches</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+    <a id="signBtn" class="cta" href="login.html" onclick="logout()">Sign Up</a>
+    <p class="menu cta">Explore</p>
+    <p class="menu cta">Coaches</p>
+    <p class="menu cta">Events</p>
+    <p id="signBtn" class="menu cta">Sign Up</p>
+    <p class="menu cta">Profile</p>
+
+
+  </header>
+  <div id="mobile__menu" class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+      <a href="contact.html">Coaches</a>
+      <a href="events.html">Events</a>
+      <a href="profile.html">Profile</a>
+      <a href="explore.html">Explore</a>
+    </div>
+  </div>
+
+
+  <section class="view">
+
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+          <h1 id="headerId" class="heading display-3">Code Next Connect</h1>
+          <h4 id="subHead" class="subheading font-weight-bold">The place to connect Code Next students, mentors, coaches
+            and Googlers.</h4>
+          <div class="mr-auto">
+            <button type="button" class="btn btn-lily btn-margin btn-rounded">Log In <i
+                class="fas fa-caret-right ml-3"></i></button>
+            <button type="button" class="btn btn-lily btn-margin btn-rounded">Sign Up <i
+                class="fas fa-caret-right ml-3"></i></button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <div id="imageBox" class="view">
+          <img src="welcomeImage.png" class="img-fluid" alt="smaple image">
+          <!-- <div class="mask flex-center hm-gradient"> -->
+        </div>
+        <!-- </div> -->
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Intro -->
+
+  </header>
+
+  <main>
+
+    <div class="container">
+
+      <!-- Section: Features v.3 -->
+      <section class="features my-5">
+
+        <!-- Section heading -->
+        <h2 class="title h1-responsive font-weight-bold text-center">Why is it so great?</h2>
+        <!-- Section description -->
+        <h6 class="subtitle font-weight-bold text-center">Code Next Connect (CNC) was made for Code Next students that
+          would like more opportunities to meet each
+          other. We know that it hasn’t always been the easiest to meet other members and professionals, so this
+          site will fix that. You are able to view the other members of Code Next’s profiles which include their
+          interests, hobbies, skills, favorite projects they’ve done. They can also contact Code Next coaches and
+          other computer science professionals for help and mentoring, growing their network.</h6>
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-5 text-center text-lg-left">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg"
+              alt="Sample image">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-7">
+
+            <!-- Grid row -->
+            <div class="row mb-3">
+
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fas fa-share fa-lg"></i>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Students</h5>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
+                  quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row mb-3">
+
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fas fa-share fa-lg"></i>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Coaches</h5>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
+                  quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fas fa-share fa-lg"></i>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Googlers</h5>
+                <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima
+                  veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!--Grid row-->
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!-- Grid row -->
+
+      </section>
+      <!-- Section: Features v.3 -->
+
+      <!-- <section class="form-section"> -->
+
+      <!-- Section heading -->
+      <!-- <h2 class="title h1-responsive font-weight-bold text-center">Register on our website</h2> -->
+
+      <!-- Default form login -->
+      <!-- <form class="text-center"> -->
+
+      <!-- <div class="md-form md-outline mx-auto" style="max-width: 20rem;"> -->
+      <!-- <input type="text" id="example0" class="form-control"> -->
+      <!-- <label for="example0">Name</label> -->
+      <!-- </div> -->
+
+      <!-- <div class="md-form md-outline mx-auto" style="max-width: 20rem;"> -->
+      <!-- <input type="email" id="example1" class="form-control"> -->
+      <!-- <label for="example1">E-mail</label> -->
+      <!-- </div> -->
+
+      <!-- <div class="md-form md-outline mx-auto" style="max-width: 20rem;"> -->
+      <!-- <input type="password" id="example2" class="form-control"> -->
+      <!-- <label for="example2">Password</label> -->
+      <!-- </div> -->
+
+      <!-- Sign in button -->
+      <!-- <button type="button" class="btn btn-lily btn-rounded mt-2">Sign up <i class="fas fa-thumbs-up ml-2"></i></button> -->
+
+      <!-- </form> -->
+      <!-- Default form login -->
+
+      <!-- </section> -->
+
+    </div>
+
+  </main>
+  <!-- Footer -->
+  <footer class="page-footer font-small stylish-color-dark pt-4">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+            Code Connect
+          </h5>
+          <p>
+            Code Next Connect was made for Code Next students that would like more opportunities to meet each
+            other. We know that it hasn’t always been the easiest to meet other members and professionals, so this
+            site will fix that. You are able to view the other members of Code Next’s profiles which include their
+            interests, hobbies, skills, favorite projects they’ve done. They can also contact Code Next coaches and
+            other computer science professionals for help and mentoring, growing their network.
+
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+            NYC Coaches
+          </h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/selfsched?sstoken=UUVsQl8zTWxxN3h1fGRlZmF1bHR8OTcxZjljMzg0ZjNiOTRhZDhiMTM5OTljNDVhNjIwODU">Coach
+                Natalie</a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/selfsched?sstoken=UUNZVnRKUE1SalZBfGRlZmF1bHR8YWZhZjE2MzgxZWVlMWQ0N2E4NmEyYmY0YzA3NDkzYTE">Coach
+                Donna</a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/selfsched?sstoken=UUwzaDlsZlprZVNufGRlZmF1bHR8ZDZlYmVkZWU0ZjE1OGQwMjA0YWYzY2E0MWVlMjNjZTQ">Coach
+                Alyssa</a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/selfsched?sstoken=UUMtY0g4LU5aYjM0fGRlZmF1bHR8ZjViZGQ0ODJjMTMxYWU1NTEwNWU3N2YyYWQxNGViMzE">Coach
+                Blanca</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+            Cali Coaches
+          </h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/selfsched?sstoken=UU95N1d3QklvZDhrfGRlZmF1bHR8ZDdmMThkY2JiNTdmYzIxYTE3ZTRjNmNjZWNlNTQyOTk">Coach
+                Vanessa</a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/selfsched?sstoken=UU9MRWZhSWJDSXkxfGRlZmF1bHR8YWUzYmUwMmRlYTIzMzI3ZTYzZTY3OGM0MWNmZjcyMDk">Coach
+                Sam</a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/selfsched?sstoken=UUdJbU1PaVBreUY4fGRlZmF1bHR8NDQwZDgzZjY5ZDU4MWVhOWY0Mzk3MGNiMTFiNmQ2NjQ">Coach
+                Alex</a>
+            </li>
+            <li>
+              <a href="#!">Coach Amber</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Creators</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="mailto:paul.gaddy@csedge.org">Paul Gaddy</a>
+            </li>
+            <li>
+              <a href="#!"></a>
+            </li>
+            <li>
+              <a href="mailto:david.vasquez@csedge.org">David Vasquez</a>
+            </li>
+            <li>
+              <a href="#!"></a>
+            </li>
+            <li>
+              <a href="fahad.algharazi@csedge.org ">Fahad Algharazi</a>
+            </li>
+            <li>
+              <a href="#!"></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+
+    <hr />
+
+    <!-- Call to action
+      <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+          <h5 class="mb-1">Register for free</h5>
+        </li>
+        <li class="list-inline-item">
+          <a href="file:///Users/student/Desktop/Connect/signup.html" class="btn btn-danger btn-rounded">Sign up!</a>
+        </li>
+      </ul>
+      Call to action
+ -->
+    <!--     <hr /> -->
+
+
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</body>
+
+</html>

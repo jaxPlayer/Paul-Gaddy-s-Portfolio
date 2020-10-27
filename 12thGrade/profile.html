@@ -1,0 +1,345 @@
+<html>
+
+<head>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <!-- Bootstrap -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/settings.css" />
+  <link rel="stylesheet" href="/public/settings.css" />
+  <!-- Bootstrap -->
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/public/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+  <!--  Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <!--     Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+
+
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- <button onclick="logout()">Logout</button> -->
+
+  <div class="section">
+    <div class="right-div">
+      <div class="content-block settings">
+        <div class="top-bar">
+          <div class="top-left-box"><a href="#" class="home-link w-inline-block"><img
+                src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f1806c3c42378d9975764eb_menu-24px.svg"
+                alt="" class="nav-links-icon"></a>
+            <div class="home-v-line"></div>
+            <div class="up-left-nav-box">
+              <img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906fb7af9f18e6_settings.png"
+                alt="" class="nav-links-icon-copy">
+              <div class="page-name">Account Settings</div>
+              <a href="showPosts.html">
+                <svg viewBox="0 0 15 15" class="nav-links-icon-copy" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1H2a2 2 0 0 1 2-2z" />
+                  <path
+                    d="M2 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2z" />
+                  <path fill-rule="evenodd"
+                    d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                </svg>
+              </a>
+              <div class="page-name">My Posts</div>
+            </div>
+          </div>
+          <div class="top-right-nav-links"><a href="#" class="icon-link w-inline-block"><img
+                src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f37129f18f2_search-24px.svg"
+                alt="" class="nav-links-icon"></a>
+            <div data-delay="0" class="notifications w-dropdown">
+              <div class="dropdown-toggle-8 w-dropdown-toggle" id="w-dropdown-toggle-0"
+                aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                <a href="#" class="icon-link w-inline-block"><img
+                    src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f3a789f18e1_notification%20bell.svg"
+                    alt="" class="nav-links-icon"></a></div>
+              <nav class="dropdown-list-2 w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
+                <div class="div-block-172 _2"><img
+                    src="https://assets.website-files.com/5e42ba1edad7dd756310249a/5e5030f07b939239d90b66fb_offline_bolt-24px.svg"
+                    alt="" class="image-100-copy-copy"><a href="#" class="dropdown-link-4 w-dropdown-link"
+                    tabindex="0">You have no new
+                    notifications!</a></div>
+              </nav>
+            </div>
+            <div data-delay="200" class="account-dropdown w-dropdown">
+              <div class="dropdown-toggle-2 _2 w-dropdown-toggle" id="w-dropdown-toggle-1"
+                aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                <img class="side-link-icons profile w-inline-block" id="myimg"></div>
+              <nav class="dropdown-list-2 _2 w-dropdown-list" id="w-dropdown-list-1"
+                aria-labelledby="w-dropdown-toggle-1">
+                <div class="div-block-172">
+                  <div class="dropdown-box"><img
+                      src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f7c869f18e4_User%20Profile%205.png"
+                      alt="" class="image-50"><a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">My
+                      Profile</a></div>
+                  <div class="dropdown-box"><img
+                      src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906fb7af9f18e6_settings.png"
+                      alt="" class="image-50"><a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">Account
+                      Settings</a></div>
+                  <div class="div-block-174"></div>
+                  <div class="dropdown-box"><img
+                      src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f61e09f18f0_exit.png"
+                      alt="" class="image-50"><a href="#" class="dropdown-link-2 w-dropdown-link" tabindex="0">Sign
+                      Out</a></div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <img id="profilePic"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.wJnzjWvEFifpJAITYlcF-AHaJ3%26pid%3DApi&f=1">
+        <div class="second-container">
+          <div class="settings-container">
+            <div class="settings-block">
+              <div class="account-settings-box">
+                <h2 class="heading">Account Info</h2>
+                <div class="form-block w-form">
+                  <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                    <div class="text-field-box">
+                      <input type="text" class="text-field _2 w-input" maxlength="256" name="Username-2"
+                        data-name="Username 2" placeholder="Full Name" id="fln">
+                    </div>
+                    <!-- <div class="text-field-box _2">
+                                      <input type="text" class="text-field _2 w-input" maxlength="256" name="Username-2" data-name="Username 2" placeholder="Display Name" id="Username-2" required="">
+                                        <div class="text-block-28">Only letters and numbers with no spaces.</div>
+                                    </div> -->
+                    <div class="text-field-box"><input type="email" class="text-field _2 w-input" maxlength="256"
+                        name="Email-2" data-name="Email 2" placeholder="Email" id="email"></div>
+                    <!-- <input type="submit" value="Save changes" data-wait="Please wait..." class="button hide w-button"> -->
+                    <!-- <a href="#" class="button w-button" id="buttonOne">Save changes</a> -->
+
+                    <!-- <input type="submit" value="Reset password" data-wait="Please wait..." class="button hide w-button">
+                                    <a href="#" class="button w-button">Reset Password</a> -->
+                  </form>
+                  <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="account-settings-box">
+                <h2 class="heading">Profile Details</h2>
+                <div class="form-block w-form">
+                  <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                    <div class="text-field-box">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-5" data-name="Name 5"
+                        placeholder="State" id="state">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-6" data-name="Name 6"
+                        placeholder="Age" id="age">
+                    </div>
+                    <div class="text-field-box">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-5" data-name="Name 5"
+                        placeholder="Role" id="role">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-6" data-name="Name 6"
+                        placeholder="Code Next member since" id="memberSince">
+                    </div>
+                    <div class="text-field-box">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-5" data-name="Name 5"
+                        placeholder="Interest One" id="interestOne">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-6" data-name="Name 6"
+                        placeholder="Interest Two" id="interestTwo">
+                    </div>
+                    <div class="text-field-box">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-5" data-name="Name 5"
+                        placeholder="Skill One" id="skillOne">
+                      <input type="text" class="text-field w-input" maxlength="256" name="Name-6" data-name="Name 6"
+                        placeholder="Skill Two" id="skillTwo">
+                    </div>
+                    <div class="text-field-box _2"><input type="text" class="text-field _2 w-input" maxlength="256"
+                        name="Username-2" data-name="Username 2" placeholder="Hobbies" id="hobbies">
+                      <div class="text-block-28">Hobbies.</div>
+                    </div>
+                    <div class="text-field-box _2"><input type="text" class="text-field _2 w-input" maxlength="256"
+                        name="Username-2" data-name="Username 2" placeholder="School" id="school">
+                      <div class="text-block-28">Your current high school or college.</div>
+                    </div>
+                    <div class="text-field-box bio"><textarea placeholder="Bio" maxlength="5000" id="bio" name="field"
+                        data-name="Field" class="text-field _2-copy w-input"></textarea>
+                      <div class="text-block-28">Max 140 characters.</div>
+                    </div>
+                    <div class="text-field-box bio"><textarea placeholder="Project One" maxlength="5000" id="projOne"
+                        name="field" data-name="Field" class="text-field _2-copy w-input"></textarea>
+                      <div class="text-block-28">Describe one of your favorite projects you've
+                        completed.</div>
+                    </div>
+                    <div class="text-field-box bio"><textarea placeholder="Project Two" maxlength="5000" id="projTwo"
+                        name="field" data-name="Field" class="text-field _2-copy w-input"></textarea>
+                      <div class="text-block-28">Describe one of your favorite projects you've
+                        completed.</div>
+                    </div>
+                    <!-- <input type="submit" value="Save changes" data-wait="Please wait..." class="button hide w-button"><a
+                      href="#" class="button w-button" id="buttonTwo">Save changes</a> -->
+                  </form>
+
+                  <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+
+                  <input type="button" value="Chat" data-wait="Please wait..."
+                  class="button hide w-button" onclick="startChat()"><a href="#" class="button w-button"
+                  id="buttonTwo">Chat</a>
+
+                </div>
+              </div>
+              <!-- <button onclick="logout()">Logout</button> -->
+
+              <!-- <div class="account-settings-box">
+                            <h2 class="heading">Linked Accounts</h2>
+                            <div class="social-accounts-wrapper">
+                                <div class="social-accounts"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f547a9f18e2_G.png" alt="" class="social-icon">
+                                    <div class="text-block-59">Google</div><a href="#" class="button-2 _2 w-button">Unlink</a></div>
+                                <div class="social-accounts"><img src="https://assets.website-files.com/5e21e035412066379cd0b9b1/5e22140208ba35d23e7cfc4c_facebook%20icon.svg" alt="" class="social-icon">
+                                    <div class="text-block-59">Facebook</div><a href="#" class="button-2 w-button">Link Account</a></div>
+                                <div class="social-accounts"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f9e7d9f18ea_github.png" srcset="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f9e7d9f18ea_github-p-500.png 500w, https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f9e7d9f18ea_github.png 512w"
+                                        sizes="24px" alt="" class="social-icon">
+                                    <div class="text-block-59">Github</div><a href="#" class="button-2 w-button">Link Account</a></div>
+                                <div class="social-accounts"><img src="https://assets.website-files.com/5e21e035412066379cd0b9b1/5e22140d9e6c49a1727dc76a_twitter%20icon.svg" alt="" class="social-icon">
+                                    <div class="text-block-59">Twitter</div><a href="#" class="button-2 w-button">Link Account</a></div>
+                                <div class="social-accounts"><img src="https://assets.website-files.com/5e21e035412066379cd0b9b1/5e223e3198d7ea38f4b322ee_linkedin%20icon.svg" alt="" class="social-icon">
+                                    <div class="text-block-59">LinkedIn</div><a href="#" class="button-2 w-button">Link Account</a></div>
+                            </div>
+                        </div> -->
+              <!-- <div class="account-settings-box">
+                            <h2 class="heading">Public Profile</h2>
+                            <div class="div-block-64">
+                                <a href="#" data-ix="toggle" data-w-id="15693fd0-3c3b-cf7a-a5e2-25440c4906a9" class="togglebutton w-inline-block">
+                                    <div class="buttontoggle"></div>
+                                </a>
+                                <div class="text-block-29">Allow members of the platform to view your profile.</div>
+                            </div>
+                        </div>
+                        <div class="account-settings-box">
+                            <h2 class="heading">Connections</h2>
+                            <div class="div-block-64">
+                                <a href="#" data-ix="toggle" data-w-id="15693fd0-3c3b-cf7a-a5e2-25440c4906b1" class="togglebutton w-inline-block">
+                                    <div class="buttontoggle"></div>
+                                </a>
+                                <div class="text-block-29">Allow members of the platform to send you a connection request.</div>
+                            </div>
+                        </div> -->
+              <!-- <div class="account-settings-box last">
+                            <h2 class="heading">Change Password</h2>
+                            <div class="form-block w-form">
+                                <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                                    <div class="text-field-box _2">
+                                        <div class="text-field-box"><input type="password" class="text-field password w-input" maxlength="256" name="Password-4" data-name="Password 4" placeholder="Old Password" id="Password-4" required=""></div>
+                                        <div class="text-field-box"><input type="password" class="text-field password w-input" maxlength="256" name="Password-3" data-name="Password 3" placeholder="New Password" id="Password-3" required=""></div>
+                                        <div class="text-field-box"><input type="password" class="text-field password w-input" maxlength="256" name="Password-2" data-name="Password 2" placeholder="Repeat New Password" id="Password-2" required=""></div>
+                                    </div><input type="submit" value="Save changes" data-wait="Please wait..." class="button hide w-button"><a href="#" class="button w-button">Save changes</a></form>
+                                <div class="w-form-done">
+                                    <div>Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="w-form-fail">
+                                    <div>Oops! Something went wrong while submitting the form.</div>
+                                </div>
+                            </div>
+                        </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="bottom-links-box"><a href="#" class="link">Privacy Policy</a><a href="#" class="link">Terms of Use</a></div> -->
+      </div>
+    </div>
+    <!-- <div class="left-nav">
+            <div class="navbar">
+                <div class="left-nv-block">
+                    <div class="left-nav-top-buttons">
+                      <a href="#" class="nav-links w-inline-block"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f5a999f18ef_timeline-24px.svg" alt="" class="nav-links-icon"></a>
+                      <a href="settings.html" class="nav-links w-inline-block"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f199d9f18ed_account-group-outline.svg" alt="" class="nav-links-icon"></a>
+                       <a href="reset.html" class="desktop-menu-button w-inline-block"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f59a79f18ee_more_horiz-24px.svg" alt="" class="nav-links-icon"></a></div> 
+                </div>
+            </div>
+        </div> -->
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5f17fb07b9515de2d22c8c43"
+    type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+  <!-- <script src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/js/webflow.c4ca7ac84.js" type="text/javascript"></script> -->
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Tutorials</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h4>NYC Coaches Quicklinks</h4>
+          <ul class="footer-links">
+            <li><a href="#">Coach Alyssa</a></li>
+            <li><a href="#">Coach Blanca</a></li>
+            <li><a href="#">Coach Donna</a></li>
+            <li><a href="#">Coach Natalie</a></li>
+            <li><a href="#">Coach Shaquan</a></li>
+            <li><a href="#">Coach Wolf</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h4>California Coaches Quicklinks</h4>
+          <ul class="footer-links">
+            <li><a href="#">Coach Alex</a></li>
+            <li><a href="#">Coach Amber</a></li>
+            <li><a href="#">Coach Paco</a></li>
+            <li><a href="#">Coach Sam</a></li>
+            <li><a href="#">Coach Vanessa</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-legal">
+        <!-- <div class="float-md-right region"><a href="#"><img src="united-states-flag.png" />United States</a></div> -->
+        <div class="d-inline-block copyright">
+          <p class="d-inline-block">Copyright © 2020. All rights reserved.<br /></p>
+        </div>
+        <div class="d-inline-block legal-links">
+          <div class="d-inline-block item">
+            <!-- <img class="img-fluid"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-An6np82QKTQ%2FV4ego8qnXzI%2FAAAAAAAABqE%2FkyM3AaEyvv0aKi3cQl9-nRRry4tVXjG9gCEw%2Fs1600%2FThe%2BNew%2BInstagram%2BLogo%2BWith%2BTransparent%2BBackground%2B11.png&amp;f=1&amp;nofb=1" /> -->
+          </div>
+          <div class="d-inline-block item">
+            <h5>Follow us on Instagram for the latest updates</h5>
+          </div>
+          <div class="d-inline-block item">
+            <h5>Made with love in NYC</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
+  <script type="text/javascript" src="/static/profile.js"></script>
+  <script src="/Scripts/chat.js"></script>
+  <script src="Scripts/jquery-3.4.1.min.js"></script>
+  <script src="Scripts/popper-1.14.7.min.js"></script>
+  <script src="Scripts/bootstrap-4.3.1.min.js"></script>
+  <script src="Scripts/firebase-messaging.js"></script>
+</body>
+
+</html>
