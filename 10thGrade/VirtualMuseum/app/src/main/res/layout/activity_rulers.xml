@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" />
+    <TextView
+        android:layout_width="750dp"
+        android:layout_height="50dp"
+        android:text="Welcome to Rulers of the Ancient Egyptian Museum"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="750dp"
+        android:layout_height="30dp"
+        android:text="1. Djoser"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="400px"
+        android:src="@drawable/djoser" />
+    <TextView
+        android:layout_width="760px"
+        android:layout_height="500px"
+        android:text="About Djoser: Isis was the daughter of the earth god Geb and the sky goddess Nut and the sister of the deities Osiris, Seth, and Nephthys. She was also wife to Osiris, god of the underworld, and bore him a son, Horus. ... Her cult subsequently spread throughout the Roman Empire, and Isis was worshipped from England to Afghanistan "
+        android:textSize="20sp"
+    />
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="100px"
+        android:text="2. Bastet"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:src="@drawable/bastet" />
+    <TextView
+        android:layout_width="760px"
+        android:layout_height="500px"
+        android:text="About Bastet: Bastet, also known as Bast, was an ancient Egyptian goddess who originally had the role of protecting the Pharaohs. The inhabitants of the lower Nile depicted Bastet as a savage, lion-headed deity. After 1000 BCE, the Egyptians altered her image to the body of a woman and the head of a domesticated cat."
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="100px"
+        android:text="3. Hathor"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:src="@drawable/hathor" />
+    <TextView
+        android:layout_width="760px"
+        android:layout_height="500px"
+        android:text="About Hathor:Hathor is an ancient Egyptian goddess associated, later, with Isis and, earlier, with Sekhmet but eventually was considered the primeval goddess from whom all others were derived. She is usually depicted as a woman with the head of a cow, ears of a cow, or simply in cow form."
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="150px"
+        android:text="Welcome to Gods of the Ancient Egyptian Museum"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="100px"
+        android:text="1.Ra"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:src="@drawable/ra" />
+    <TextView
+        android:layout_width="760px"
+        android:layout_height="220px"
+        android:textSize="20sp"
+        android:text="About Ra:The ancient Egyptians believed that as the sun god Ra role was to sail across the heavens during the day in his boat called the Barque of Millions of Years"
+         />
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="100px"
+        android:text="2. shu"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:src="@drawable/shu" />
+    <TextView
+        android:layout_width="760px"
+        android:layout_height="500px"
+        android:text="About Bastet: Bastet, also known as Bast, was an ancient Egyptian goddess who originally had the role of protecting the Pharaohs. The inhabitants of the lower Nile depicted Bastet as a savage, lion-headed deity. After 1000 BCE, the Egyptians altered her image to the body of a woman and the head of a domesticated cat."
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="100px"
+        android:text="3. Nephthys"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:src="@drawable/hathor" />
+    <TextView
+        android:layout_width="760px"
+        android:layout_height="500px"
+        android:text="About Hathor:Hathor is an ancient Egyptian goddess associated, later, with Isis and, earlier, with Sekhmet but eventually was considered the primeval goddess from whom all others were derived. She is usually depicted as a woman with the head of a cow, ears of a cow, or simply in cow form."
+        android:textSize="20sp" />
+</LinearLayout>
