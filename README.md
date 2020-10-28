@@ -37,7 +37,8 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 
 <hr>
 <br>
-<a href='https://postimg.cc/MfkHk20K' target='_blank'><img align="center" src='https://i.postimg.cc/MfkHk20K/Screen-Shot-2020-10-26-at-19-47-12.png' border='0' width="300px" height="150px" alt='Screen-Shot-2020-10-26-at-19-47-12'/></a>
+<a href="https://ibb.co/fpLJ25G"><img src="https://i.ibb.co/fpLJ25G/Screen-Shot-2020-10-28-at-7-21-26-PM.png" alt="Screen-Shot-2020-10-28-at-7-21-26-PM" border="0"></a>
+<a href="https://ibb.co/2SbV4mY"><img src="https://i.ibb.co/2SbV4mY/Screen-Shot-2020-10-28-at-7-30-05-PM.png" alt="Screen-Shot-2020-10-28-at-7-30-05-PM" border="0"></a>
 
 <hr>
 <br>
