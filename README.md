@@ -31,9 +31,12 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <hr>
 <br>
 <a href='https://postimg.cc/NKbKKntp' target='_blank'><img src='https://i.postimg.cc/NKbKKntp/Screen-Shot-2020-10-26-at-19-40-17.png' border='0' width="300px" height="150px" alt='Screen-Shot-2020-10-26-at-19-40-17'/></a>
+
 * This is the facial recognition project I worked on in 11th grade. You upload a picture of a person/people and it uses the catalog of labeled images and it labels each person in the photo. (Javascript)
 
 
+<hr>
+<br>
 <a href='https://postimg.cc/MfkHk20K' target='_blank'><img src='https://i.postimg.cc/MfkHk20K/Screen-Shot-2020-10-26-at-19-47-12.png' border='0' width="300px" height="150px" alt='Screen-Shot-2020-10-26-at-19-47-12'/></a>
 
 <hr>
