@@ -13,11 +13,11 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 
 <hr>
 <br>
-1.Lastly, I've been working on something at Google Launch for about 2-3 months. The project is basically Linkedin for the Google Code Next program. In it, you can view everyone's profile, edit your profile, send messages to others, book time to meet with the coaches, post on a forum, view the schedules of the coaches along with a few other features. Along with all of this, I included the pitch deck.(Node js, Firebase)
+1.I've been working on a project at Google Launch for about 2-3 months. The project is basically Linkedin for the Google Code Next program. In it, you can view everyone's profile, edit your profile, send messages to others, book time to meet with the coaches, post on a forum, view the schedules of the coaches along with a few other features. Along with all of this, I included the pitch deck.(Node js, Firebase)
 
 <hr>
 <br>
-<a href="https://ibb.co/jL0kF6K"><img align="center" src="https://i.ibb.co/jL0kF6K/Screen-Shot-2020-10-26-at-19-37-22.png" alt="Screen-Shot-2020-10-26-at-19-37-22" border="0" width="300px" height="150px"></a>
+
 
 <hr>
 <br>
@@ -36,7 +36,7 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <hr>
 <br>
 
-
+<a href="https://ibb.co/jL0kF6K"><img align="center" src="https://i.ibb.co/jL0kF6K/Screen-Shot-2020-10-26-at-19-37-22.png" alt="Screen-Shot-2020-10-26-at-19-37-22" border="0" width="300px" height="150px"></a>
 5.This is the card matching game I made in 9th grade. The premise of the game is to match cards. If you mess up twice, the game ends. During each turn, a different sound plays if you match the cards, miss one or the game ends. (Javascript, p5.js)
 
 <hr>
@@ -44,4 +44,4 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <a href="https://ibb.co/QPPpJSQ"><img align="center" src="https://i.ibb.co/QPPpJSQ/Screen-Shot-2020-10-26-at-18-55-51.png" alt="Screen-Shot-2020-10-26-at-18-55-51" border="0" width="300px" height="150px" display="block" margin-left="auto" margin-right="auto" width="50%"></a>
 <hr>
 <br>
-6.This is the space shooter game I made in 9th grade. You use the spacebar to navigate and each time you land a hit on the alien, you gain a point. If you miss too many times, you lose a turn and the game ends. (Javascript, p5.js)
+6.Lastly, this is the space shooter game I made in 9th grade. You use the spacebar to navigate and each time you land a hit on the alien, you gain a point. If you miss too many times, you lose a turn and the game ends. (Javascript, p5.js)
