@@ -7,7 +7,7 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 
 <hr>
 <br>
-<a href='https://postimg.cc/Z0vP3y0g' target='_blank'><img width="400px" height="200px" src='https://i.postimg.cc/Z0vP3y0g/Screen-Shot-2020-10-28-at-7-21-26-PM.png' border='0' alt='https://ibb.co/fpLJ25G'/></a>
+<a href='https://postimg.cc/Z0vP3y0g' target='_blank'><img width="400px" height="200px" src='https://ibb.co/fpLJ25G' border='0' alt='https://ibb.co/fpLJ25G'/></a>
 <br>
 <a href='https://postimg.cc/v4Zcrp3B' target='_blank'><img width="400px" height="200px" src='https://i.postimg.cc/v4Zcrp3B/Screen-Shot-2020-10-28-at-7-30-05-PM.png' border='0' alt='https://ibb.co/2SbV4mY'/></a>
 
@@ -36,7 +36,10 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <hr>
 <br>
 
+<hr>
+<br>
 <a href="https://ibb.co/jL0kF6K"><img align="center" src="https://i.ibb.co/jL0kF6K/Screen-Shot-2020-10-26-at-19-37-22.png" alt="Screen-Shot-2020-10-26-at-19-37-22" border="0" width="300px" height="150px"></a>
+
 5.This is the card matching game I made in 9th grade. The premise of the game is to match cards. If you mess up twice, the game ends. During each turn, a different sound plays if you match the cards, miss one or the game ends. (Javascript, p5.js)
 
 <hr>
