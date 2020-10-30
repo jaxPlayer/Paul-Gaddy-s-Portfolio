@@ -33,7 +33,7 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <br>
 4.The museum app is another one of the apps I created in 10th grade. This project used a few different libraries and the premise of it is to click through different exhibits and see different photos from each exhibits along with descriptions of each item.(Java, Android Studio)
 
-<hr>
+
 <br>
 
 <hr>
@@ -43,6 +43,8 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 5.This is the card matching game I made in 9th grade. The premise of the game is to match cards. If you mess up twice, the game ends. During each turn, a different sound plays if you match the cards, miss one or the game ends. (Javascript, p5.js)
 
 <hr>
+
+
 <br>
 <a href="https://ibb.co/QPPpJSQ"><img align="center" src="https://i.ibb.co/QPPpJSQ/Screen-Shot-2020-10-26-at-18-55-51.png" alt="Screen-Shot-2020-10-26-at-18-55-51" border="0" width="300px" height="150px" display="block" margin-left="auto" margin-right="auto" width="50%"></a>
 <hr>
