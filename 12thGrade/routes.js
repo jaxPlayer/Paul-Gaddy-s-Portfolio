@@ -28,8 +28,14 @@ app.get('/settings', function (req, res) {
 app.get('/signup', function (req, res) {
     res.sendFile(path.join(__dirname + '/signup.html'));
 });
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname + '/welcome.html'));
+});
 app.get('/explore', function (req, res) {
     res.sendFile(path.join(__dirname + '/explore.html'));
+});
+app.get('/resources', function (req, res) {
+    res.sendFile(path.join(__dirname + '/resources.html'));
 });
 app.get('/user=:username', function (req, res) {
     res.sendFile(path.join(__dirname + '/profile.html'));
