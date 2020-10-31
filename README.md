@@ -24,15 +24,15 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <br>
 <a href="https://ibb.co/sFVtKjt"><img src="https://i.ibb.co/hKmCBsC/Screen-Shot-2020-10-30-at-7-05-07-PM.png" alt="Screen-Shot-2020-10-30-at-7-05-07-PM" border="0"></a>
 
-2.This is the facial recognition project I worked on in 11th grade. You upload a picture of a person/people and it uses the catalog of labeled images and it labels each person in the photo. (Javascript)
+2.This is the facial recognition project that I worked on in the 11th grade. You begin by uploading a picture of a person/people. The app uses the catalog of labeled images and labels each person in the photo. (Javascript)
 
 <hr>
 <br>
-3.The platformer is my 2nd favorite game I made in 9th grade. I created different platforms for the characters to walk on, setup different animations for different positions (walking, running, jumping etc). Along with this, you can pick up items and earn extra points. The game ends when you fall off of a ledge. (Javascript, p5.js)
+3.I created the Platformer game in 9th grade and it is my second favorite game. The game has different platforms for the character to walk on. The characters can setup different animations for different positions (walking, running, jumping, etc). You can also pick-up items and earn extra points. The game ends when you fall off of a ledge. (Javascript, p5.js)
 
 <hr>
 <br>
-4.The museum app is another one of the apps I created in 10th grade. This project used a few different libraries and the premise of it is to click through different exhibits and see different photos from each exhibits along with descriptions of each item.(Java, Android Studio)
+4.I created the museum app in 10th grade. The premise of the game is to click through different exhibits and view different photos from each exhibit. Each exhibit has descriptions, and the libraries are interchangeable, .(Java, Android Studio)
 
 
 <br>
@@ -41,7 +41,7 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <br>
 <a href="https://ibb.co/dcmnzBj"><img src="https://i.ibb.co/rtdn1kF/Screen-Shot-2020-10-30-at-7-07-26-PM.png" alt="Screen-Shot-2020-10-30-at-7-07-26-PM" border="0"></a>
 
-5.This is the card matching game I made in 9th grade. The premise of the game is to match cards. If you mess up twice, the game ends. During each turn, a different sound plays if you match the cards, miss one or the game ends. (Javascript, p5.js)
+5.This is the card matching game I created in 9th grade. The premise of the game is to match cards. During each potential match, different sound plays. If you mismatch the cards twice in a row, the game ends  (Javascript, p5.js)
 
 <hr>
 
@@ -50,4 +50,4 @@ My name is Paul Gaddy and I'm a high school senior at Fordham Preparatory School
 <a href="https://ibb.co/zP0VnV3"><img src="https://i.ibb.co/SV9wswk/Screen-Shot-2020-10-30-at-7-13-04-PM.png" alt="Screen-Shot-2020-10-30-at-7-13-04-PM" border="0"></a>
 <hr>
 <br>
-6.Lastly, this is the space shooter game I made in 9th grade. You use the spacebar to navigate and each time you land a hit on the alien, you gain a point. If you miss too many times, you lose a turn and the game ends. (Javascript, p5.js)
+6.This is the space shooter game I made in 9th grade. You use the spacebar to navigate. Each time you hit an alien; you gain one point. If you miss too many times, you lose a turn and the game ends. (Javascript, p5.js)
