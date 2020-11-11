@@ -1,60 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/static/login.css" />
-  <title>Password Reset</title>
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet" />
-  <!-- Bootstrap -->
-  <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-  <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>PrograMeet</title>
+    <link rel="stylesheet" href="reset/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="reset/assets/css/Corporate-Footer-Clean.css">
+    <link rel="stylesheet" href="reset/assets/css/dh-row-titile-text-image-right-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="reset/assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="reset/assets/css/smoothproducts.css">
 </head>
 
 <body>
 
-  <!-- <div class="container">
-            <div>
-              <label for="mail">Email</label> <br>
-              <input type="email" id="mail" name="mail"/>
-            </div><br>
-            <button id="resetPassword">Confirm</button>
-            </div> -->
+    <style>
+        body{
+            background-color: rgb(244,244,244);
+        }
+    button{
+        margin-top: 22px;
+        margin-left: 150px; 
+    }
 
-  <form class="text-center border border-light p-5" action="#!"
-    style="max-width: 35rem; margin: auto; padding-bottom: 100px;">
-    <h2>Reset</h2>
-    <input type="email" id="email" class="form-control mb-4" placeholder="Email Address">
-    <br>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+  height:80px;
+}
 
-    <br>
-    <!-- Sign in button -->
-    <button class="btn btn-info btn-block my-4" id="btn-resetPassword" onclick="reset()">Reset</button>
-    <br>
+li {
+  float: center;
+}
 
-  </form>
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+img{
+  width:120px;
+  height:80px;
+}
+    </style>
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
+ <ul>
+  <li><a class="active" href="index.html"><img src="logo.png"/></a></li>
+    <hr>
+</ul>
+    
 
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
-  <script src="/static/reset.js"></script>
+    <main class="page login-page">
+        <!-- <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><a class="navbar-brand" href="#">PrograMeet</a>
+                <hr><input type="search"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#">Explore</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Ask</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Form</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Settings</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Login</a></li>
+                        <li class="nav-item"></li>
+                    </ul><button class="btn btn-primary" type="button">Signup</button></div>
+            </div>
+        </nav>
+        <hr> -->
+        <section class="clean-block clean-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info" style="font-size: 40px;margin-bottom: 15px;">&nbsp;Recover your account&nbsp;</h2>
+                    <p>We can help reset your password. Enter your email and we will send you a link to reset your password.</p>
+                </div>
+                <form style="height: 285px;">
+                    <div class="form-group" id="form-group"><input class="form-control item" type="email" id="email" placeholder="Email address"></div><button class="btn btn-primary btn-block" id="btn btn-primary btn-block" type="submit" style="height: 40px;width:130px;padding-top: 3px;">Reset</button></form>
+            </div>
+        </section>
+        <!-- <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <h4>Company</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h4>Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h4>NYC Coaches Quicklinks</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Coach Alyssa</a></li>
+                            <li><a href="#">Coach Blanca</a></li>
+                            <li><a href="#">Coach Donna</a></li>
+                            <li><a href="#">Coach Natalie</a></li>
+                            <li><a href="#">Coach Shaquan</a></li>
+                            <li><a href="#">Coach Wolf</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h4>California Coaches Quicklinks</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Coach Alex</a></li>
+                            <li><a href="#">Coach Amber</a></li>
+                            <li><a href="#">Coach Paco</a></li>
+                            <li><a href="#">Coach Sam</a></li>
+                            <li><a href="#">Coach Vanessa</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-legal">
+                    <div class="float-md-right region"><a href="#"><img src="assets/img/united-states-flag.png">United States</a></div>
+                    <div class="d-inline-block copyright">
+                        <p class="d-inline-block">Copyright © 2020. All rights reserved.<br></p>
+                    </div>
+                    <div class="d-inline-block legal-links">
+                        <div class="d-inline-block item"><img class="img-fluid" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-An6np82QKTQ%2FV4ego8qnXzI%2FAAAAAAAABqE%2FkyM3AaEyvv0aKi3cQl9-nRRry4tVXjG9gCEw%2Fs1600%2FThe%2BNew%2BInstagram%2BLogo%2BWith%2BTransparent%2BBackground%2B11.png&amp;f=1&amp;nofb=1"></div>
+                        <div
+                            class="d-inline-block item">
+                            <h5>Follow us on Instagram for the latest updates</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>Made with love in NYC</h5>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer> -->
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="static/init.js"></script>
+    <script src="public/init.js"></script>
 </body>
 
 </html>
-<!-- Firebase App is always required and must be first -->
-
-<!-- Add additional services that you want to use -->

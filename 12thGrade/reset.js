@@ -1,16 +1,12 @@
-  var firebaseConfig = {
-    //I took out the api keys
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-
-  $("btn-resetPassword").click(function () {
+  $("btn btn-primary btn-block").click(function () {
       var auth = firebase.auth()
       var email = $("#email").val()
-      auth.sendPasswordResetEmail(email).then(function () {})
-          .catch(function (error) {
+      auth.sendPasswordResetEmail(email).then(function() {
+  // Email sent.
+}).catch(function(error) {
+  // An error happened.
+});
 
-          })
   })
 
   //   const resetPassword = document.getElementById('resetPassword');

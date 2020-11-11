@@ -5,44 +5,39 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Contact Page</title>
-
-  <!-- Bootstrap -->
-
-  <!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="/static/css/contact.css" rel="stylesheet" /> -->
-  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet" /> -->
-  <link href="/public/css/contact.css" rel="stylesheet" />
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-
+  <title>PrograMeet</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <!-- <link href="/public/css/contact.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" /> -->
-
-  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" /> -->
-    <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/css/Corporate-Footer-Clean.css">
-    <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/css/styles.css">
+  <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/Corporate-Footer-Clean.css">
+  <script data-ad-client="ca-pub-7375625871168388" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand" href="#">PrograMeet</a>
-            <hr><input type="search"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <header>
+    <nav class="navbar navbar-light navbar-expand-md" id="navbar navbar-light navbar-expand-md">
+        <!-- <div class="container-fluid"><a class="navbar-brand" href="#">PrograMeet</a>
+            <hr>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#">Explore</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Ask</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Form</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Settings</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Login</a></li>
-                    <li class="nav-item"></li>
-                </ul><button class="btn btn-primary" type="button" >Signup</button></div>
-        </div>
+                    <li class="nav-item"><a class="nav-link active" href="explore.html">Explore</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="form.html">Form</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="settings.html">Settings</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="resources.html">Resources</a></li>
+                    
+                    <li class="nav-item"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f3a789f18e1_notification%20bell.svg"><a class="nav-link active" href=""></a></li>
+                    <li class="nav-item"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dt7fukY8T6-BMULdR5-QUQHaHa%26pid%3DApi&f=1" class="side-link-icons profile w-inline-block" id="myimg"><a class="nav-link active" href=""></a></li>
+                    <button class="btn btn-primary" type="button">Logout</button>
+                </ul></div>
+        </div> -->
     </nav>
+    </header>
     <hr>
 
     <div class="container-md">
@@ -51,7 +46,8 @@
       <div class="flex">
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/alyssa.png" />
+            <img src="/public/coachImgs/alyssa.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/alyssa.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Alyssa</strong></h5>
             <p class="card-text">
               I manage Clubs (NYC/OAK) and Bootcamps (NYC)!
@@ -63,7 +59,8 @@
         </div>
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/blanca.png" />
+            <img src="/public/coachImgs/blanca.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/blanca.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Blanca</strong></h5>
             <p class="card-text">I manage the Code Next NYC Lab!</p>
             <a class="btn btn-primary"
@@ -73,7 +70,8 @@
         </div>
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/donna.jpg" />
+            <img src="/public/coachImgs/donna.jpg" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/donna.jpg" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Donna</strong></h5>
             <p class="card-text">I teach Launch and Bootcamps/Clubs!</p>
             <a class="btn btn-primary"
@@ -86,7 +84,8 @@
       <div class="flex">
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/natalie.png" />
+            <img src="/public/coachImgs/natalie.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/natalie.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Natalie</strong></h5>
             <p class="card-text">I manage the Code Next NYC Lab!</p>
             <a class="btn btn-primary"
@@ -96,7 +95,8 @@
         </div>
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/shaquan.png" />
+            <img src="/public/coachImgs/shaquan.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/shaquan.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Shaquan</strong></h5>
             <p class="card-text">I teach Team Edge (NYC)!</p>
             <a class="btn btn-primary"
@@ -106,7 +106,8 @@
         </div>
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/wolf.png" />
+            <img src="/public/coachImgs/wolf.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/wolf.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Wolf</strong></h5>
             <p class="card-text">I teach Team Edge (NYC)!</p>
             <a class="btn btn-primary"
@@ -123,7 +124,8 @@
       <div class="flex">
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/alex.png" />
+            <img src="/public/coachImgs/alex.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/alex.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Alex</strong></h5>
             <p class="card-text">
               I manage Bootcamps (OAK) and teach Team Edge (OAK)!
@@ -136,7 +138,8 @@
 
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/amber.png" />
+            <img src="/public/coachImgs/amber.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/amber.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Amber</strong></h5>
             <p class="card-text">I manage the Code Next Oakland Lab!</p>
             <a class="btn btn-primary"
@@ -147,7 +150,8 @@
 
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/paco.png" />
+            <img src="/public/coachImgs/paco.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/paco.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Paco</strong></h5>
             <p class="card-text">I develop curriculum for programming!</p>
             <a class="btn btn-primary"
@@ -160,7 +164,8 @@
       <div class="flex">
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/sam.png" />
+            <img src="/public/coachImgs/sam.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/sam.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Sam</strong></h5>
             <p class="card-text">I teach Team Edge (Oakland)!</p>
             <a class="btn btn-primary"
@@ -170,7 +175,8 @@
         </div>
         <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <img src="/public/coachImgs/vanessa.png" />
+            <img src="/public/coachImgs/vanessa.png" id="coachpic"/>
+            <!-- <img src="/static/coachImgs/vanessa.png" id="coachpic"/> -->
             <h5 class="card-title"><strong>Coach Vanessa</strong></h5>
             <p class="card-text">I manage the Code Next Oakland Lab!</p>
             <a class="btn btn-primary"
@@ -225,14 +231,13 @@
       </div>
       <hr />
       <div class="footer-legal">
-        <!-- <div class="float-md-right region"><a href="#"><img src="united-states-flag.png" />United States</a></div> -->
+        
         <div class="d-inline-block copyright">
           <p class="d-inline-block">Copyright © 2020. All rights reserved.<br /></p>
         </div>
         <div class="d-inline-block legal-links">
           <div class="d-inline-block item">
-            <!-- <img class="img-fluid"
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-An6np82QKTQ%2FV4ego8qnXzI%2FAAAAAAAABqE%2FkyM3AaEyvv0aKi3cQl9-nRRry4tVXjG9gCEw%2Fs1600%2FThe%2BNew%2BInstagram%2BLogo%2BWith%2BTransparent%2BBackground%2B11.png&amp;f=1&amp;nofb=1" /> -->
+           
           </div>
           <div class="d-inline-block item">
             <h5>Follow us on Instagram for the latest updates</h5>
@@ -245,6 +250,11 @@
     </div>
   </footer>
 
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
+  <script src="navbar.js"></script>
 </body>
 
 </html>

@@ -1,102 +1,48 @@
 <html>
 
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <title>PrograMeet</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-    <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="/static/settings.css" /> -->
-    <link rel="stylesheet" href="/public/settings.css" />
-    <!-- Bootstrap -->
-    <!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet" /> -->
-    <link href="/public/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/settings.css"/>
+    <link rel="stylesheet" href="assets/css/Corporate-Footer-Clean.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-    <!--  Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-    <!--     Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-        rel="stylesheet" />
-
-
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/css/styles.css">
+    <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/bootstrap/css/bootstrap.min.css">
 
 </head>
 
 <body>
 
-    <!-- <button onclick="logout()">Logout</button> -->
+    <header>
+    <nav class="navbar navbar-light navbar-expand-md" id="navbar navbar-light navbar-expand-md">
+        <!-- <div class="container-fluid"><a class="navbar-brand" href="#">PrograMeet</a>
+            <hr>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="explore.html">Explore</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="form.html">Form</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="settings.html">Settings</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="resources.html">Resources</a></li>
+                    
+                    <li class="nav-item"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f3a789f18e1_notification%20bell.svg"><a class="nav-link active" href=""></a></li>
+                    <li class="nav-item"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dt7fukY8T6-BMULdR5-QUQHaHa%26pid%3DApi&f=1" class="side-link-icons profile w-inline-block" id="myimg"><a class="nav-link active" href=""></a></li>
+                    <button class="btn btn-primary" type="button">Logout</button>
+                </ul></div>
+        </div> -->
+    </nav>
+    </header>
+    <hr>
 
-    <div class="section">
-        <div class="right-div">
-            <div class="content-block settings">
-                <div class="top-bar">
-                    <div class="top-left-box"><a href="#" class="home-link w-inline-block"><img
-                                src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f1806c3c42378d9975764eb_menu-24px.svg"
-                                alt="" class="nav-links-icon"></a>
-                        <div class="home-v-line"></div>
-                        <div class="up-left-nav-box">
-                            <img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906fb7af9f18e6_settings.png"
-                                alt="" class="nav-links-icon-copy">
-                            <div class="page-name">Account Settings</div>
-                            <a href="showPosts.html">
-                                <svg viewBox="0 0 15 15" class="nav-links-icon-copy" fill="black"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1H2a2 2 0 0 1 2-2z" />
-                                    <path
-                                        d="M2 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2z" />
-                                    <path fill-rule="evenodd"
-                                        d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
-                                </svg>
-                            </a>
-                            <div class="page-name">My Posts</div>
-                        </div>
-                    </div>
-                    <div class="top-right-nav-links"><a href="#" class="icon-link w-inline-block"><img
-                                src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f37129f18f2_search-24px.svg"
-                                alt="" class="nav-links-icon"></a>
-                        <div data-delay="0" class="notifications w-dropdown">
-                            <div class="dropdown-toggle-8 w-dropdown-toggle" id="w-dropdown-toggle-0"
-                                aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false"
-                                role="button" tabindex="0"><a href="#" class="icon-link w-inline-block"><img
-                                        src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f3a789f18e1_notification%20bell.svg"
-                                        alt="" class="nav-links-icon"></a></div>
-                            <nav class="dropdown-list-2 w-dropdown-list" id="w-dropdown-list-0"
-                                aria-labelledby="w-dropdown-toggle-0">
-                                <div class="div-block-172 _2"><img
-                                        src="https://assets.website-files.com/5e42ba1edad7dd756310249a/5e5030f07b939239d90b66fb_offline_bolt-24px.svg"
-                                        alt="" class="image-100-copy-copy"><a href="#"
-                                        class="dropdown-link-4 w-dropdown-link" tabindex="0">You have no new
-                                        notifications!</a></div>
-                            </nav>
-                        </div>
-                        <div data-delay="200" class="account-dropdown w-dropdown">
-                            <div class="dropdown-toggle-2 _2 w-dropdown-toggle" id="w-dropdown-toggle-1"
-                                aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false"
-                                role="button" tabindex="0">
-                                <img class="side-link-icons profile w-inline-block" id="myimg"></div>
-                            <nav class="dropdown-list-2 _2 w-dropdown-list" id="w-dropdown-list-1"
-                                aria-labelledby="w-dropdown-toggle-1">
-                                <div class="div-block-172">
-                                    <div class="dropdown-box"><img
-                                            src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f7c869f18e4_User%20Profile%205.png"
-                                            alt="" class="image-50"><a href="#" class="dropdown-link-2 w-dropdown-link"
-                                            tabindex="0">My Profile</a></div>
-                                    <div class="dropdown-box"><img
-                                            src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906fb7af9f18e6_settings.png"
-                                            alt="" class="image-50"><a href="#" class="dropdown-link-2 w-dropdown-link"
-                                            tabindex="0">Account Settings</a></div>
-                                    <div class="div-block-174"></div>
-                                    <div class="dropdown-box"><img
-                                            src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f61e09f18f0_exit.png"
-                                            alt="" class="image-50"><a href="#" class="dropdown-link-2 w-dropdown-link"
-                                            tabindex="0">Sign Out</a></div>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-                <img id="profilePic">
+                
+                <!-- <img id="profilePic"/> -->
                 <input type="file" class="button w-button" id="profilePicUpdate">
 
                 <div class="second-container">
@@ -201,7 +147,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button onclick="logout()">Logout</button>
+                            
 
                             <!-- <div class="account-settings-box">
                             <h2 class="heading">Linked Accounts</h2>
@@ -258,8 +204,7 @@
                     </div>
                 </div>
                 <!-- <div class="bottom-links-box"><a href="#" class="link">Privacy Policy</a><a href="#" class="link">Terms of Use</a></div> -->
-            </div>
-        </div>
+ 
         <!-- <div class="left-nav">
             <div class="navbar">
                 <div class="left-nv-block">
@@ -363,15 +308,13 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="/public/init.js"></script>
-    <script type="text/javascript" src="/static/init.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
     <!-- <script type="text/javascript" src="/static/settings.js"></script> -->
     <script type="text/javascript" src="/public/settings.js"></script>
-    <script type="text/javascript" src="/static/settings.js"></script>
+    <!-- <script type="text/javascript" src="usednavbar.js"></script> -->
 </body>
 
 </html>
