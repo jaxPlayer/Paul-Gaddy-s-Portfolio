@@ -1,6 +1,3 @@
-const firebaseConfig = {
-//I took out the api keys
-};
 firebase.initializeApp(firebaseConfig);
 var auth = firebase.auth();
 var docRef = firebase.firestore();

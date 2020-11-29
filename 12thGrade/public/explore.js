@@ -1,37 +1,45 @@
-const firebaseConfig = {
-//I took out the api keys
+  const firebaseConfig = {
+    apiKey: "AIzaSyBZeQmL3ufHjnF5Eyu2tqhg-FIek6PB1jc",
+    authDomain: "cnc-9562d.firebaseapp.com",
+    databaseURL: "https://cnc-9562d.firebaseio.com",
+    projectId: "cnc-9562d",
+    storageBucket: "cnc-9562d.appspot.com",
+    messagingSenderId: "590718245957",
+    appId: "1:590718245957:web:0ac447782af0b73842572c",
+    measurementId: "G-79048RDBW7"
 };
 firebase.initializeApp(firebaseConfig);
-
 const userListUI = document.getElementById("userList");
 var storage = firebase.storage();
 var storageRef = storage.ref("users");
 
 db = firebase.firestore()
 usersRef = db.collection("userInfo")
-usersRef.get()
+firebase.auth().onAuthStateChanged(function (user) {
+	if (user) {
+document.getElementById('navbar navbar-light navbar-expand-md').innerHTML = `<div class="container-fluid">
+        <a class="navbar-brand" href="index.html">PrograMeet</a>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="explore.html">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="form.html">Form</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link active"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-icon%2Fsettings-gear-ios-7-interface-symbol_318-34774.jpg&f=1&nofb=1" class="side-link-icons profile w-inline-block" id="pic"></a></li>
+                   <li class="nav-item"><a class="nav-link active"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.iconfinder.com%2Fdata%2Ficons%2Fshopping-180%2F32%2F43-512.png&f=1&nofb=1" id="pic" class="pic"><a class="nav-link active" ></a></li>
+                    <button class="btn btn-primary" type="button" onclick="logout()">Logout</button>
+                </ul></div>
+        </div>
+        <hr>`
+    usersRef.get()
     .then(function (querySnapshot) {
         querySnapshot.forEach(function (doc) {
             var downloadURL = doc.data().downloadURL;
             var fln = doc.data().fln;
             var username = doc.data().username;
-            var age = doc.data().age;
-            var bio = doc.data().bio;
-            var extraInfo = doc.data().extraInfo;
-            var hobbies = doc.data().hobbies;
-            var interestOne = doc.data().interestOne;
-            var interestTwo = doc.data().interestTwo;
-            var memberSince = doc.data().memberSince;
-            var projOne = doc.data().projOne;
-            var projTwo = doc.data().projTwo;
-            var role = doc.data().role;
-            var school = doc.data().school;
-            var state = doc.data().state;
-            var skillOne = doc.data().skillOne;
-            var skillTwo = doc.data().skillTwo;
             let i = 0;
             display(i, downloadURL);
-            const queryString = window.location.href;
 
             function display(row) {
                 let new_html = '';
@@ -56,7 +64,25 @@ usersRef.get()
                     const queryString = window.location.href;
                     window.location = queryString.concat('/?user', "=", username);
                 }
-
             }
         })
     })
+} else{
+    document.getElementById('navbar navbar-light navbar-expand-md').innerHTML = `<div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><a class="navbar-brand" href="index.html">PrograMeet</a></a>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="explore.html">Explore</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link active" href="ask.html">Ask</a></li> -->
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="form.html">Form</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="login.html">Login</a></li>
+                    <button class="btn btn-primary" type="button">Signup</button>
+                </ul></div>
+        </div>
+        <hr>`
+        alert("Error, you must be logged in to view this page")
+}
+})

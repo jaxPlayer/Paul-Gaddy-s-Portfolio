@@ -1,9 +1,10 @@
 .page-footer {
-  background-color: #f3f3f2;
-  padding-top: 50px;
-  padding-bottom: 10px;
   position: absolute;
   bottom: 0;
+  background-color: #f3f3f2;
+  height: 450px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   width: 100%;
 }
 
@@ -11,6 +12,10 @@
   color: #333333;
   font-size: 11px;
   font-weight: bold;
+}
+
+.page-footer .container {
+  padding-top: 40px;
 }
 
 .page-footer p {
@@ -68,11 +73,4 @@
 
 .page-footer .region img {
   margin-right: 7px;
-}
-
-@media (width: 1679px),
-screen and (max-height: 1000px) {
-  .page-footer .container {
-    padding-top: 40px;
-  }
 }

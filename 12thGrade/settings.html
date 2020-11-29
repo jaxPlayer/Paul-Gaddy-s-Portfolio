@@ -1,50 +1,118 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />    
-    <title>PrograMeet</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet" />
-    <link rel="stylesheet" href="/public/settings.css"/>
-    <link rel="stylesheet" href="assets/css/Corporate-Footer-Clean.css">
+    <!-- <link rel="stylesheet" href="/static/settings.css" /> -->
+    <link rel="stylesheet" href="/public/settings.css" />
+    <!-- Bootstrap -->
+    <!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <!--  Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-    <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/css/styles.css">
-    <link rel="stylesheet" href="Designs/B.S.S/Welcome/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Designs/B.S.S/Welcome/assets/css/styles.css">
+    <link rel="stylesheet" href="/Designs/B.S.S/Welcome/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Designs/B.S.S/Welcome/assets/css/Corporate-Footer-Clean.css"/>
+    <script data-ad-client="ca-pub-7375625871168388" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <!-- Material Design Bootstrap -->
 
 </head>
 
 <body>
-
-    <header>
-    <nav class="navbar navbar-light navbar-expand-md" id="navbar navbar-light navbar-expand-md">
-        <!-- <div class="container-fluid"><a class="navbar-brand" href="#">PrograMeet</a>
-            <hr>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="explore.html">Explore</a></li>
-                    
-                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="form.html">Form</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="settings.html">Settings</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="resources.html">Resources</a></li>
-                    
-                    <li class="nav-item"><img src="https://assets.website-files.com/5f17fb07b9515de2d22c8c43/5f17fb34c1906f3a789f18e1_notification%20bell.svg"><a class="nav-link active" href=""></a></li>
-                    <li class="nav-item"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dt7fukY8T6-BMULdR5-QUQHaHa%26pid%3DApi&f=1" class="side-link-icons profile w-inline-block" id="myimg"><a class="nav-link active" href=""></a></li>
-                    <button class="btn btn-primary" type="button">Logout</button>
-                </ul></div>
-        </div> -->
-    </nav>
-    </header>
-    <hr>
-
+    <style>
+        .page-footer ul li:after, .page-footer ul li:before {
+            content: none;
+        }
+          .page-footer {
+          background-color: #f3f3f2;
+          padding-top: 50px;
+          padding-bottom: 10px;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+        
+        .page-footer h4 {
+          margin-top: 10px;
+          color: #333333;
+          font-size: 11px;
+          font-weight: bold;
+        }
+        
+        .page-footer p {
+          color: #888;
+          font-size: 11px;
+        }
+        
+        .page-footer .footer-links {
+          list-style: none;
+          padding: 0;
+          margin-bottom: 45px;
+          word-break: break-all;
+        }
+        
+        .page-footer .footer-links a {
+          color: #555;
+          font-size: 11px;
+        }
+        
+        .page-footer .footer-links li {
+          margin-bottom: 5px;
+          line-height: 1.3;
+        }
+        
+        .page-footer .footer-legal .copyright {
+          margin-right: 60px;
+        }
+        
+        .page-footer .footer-legal .legal-links .item {
+          padding-right: 13px;
+          border-right: 1px solid #ccc;
+          margin: 0;
+          margin-right: 13px;
+        }
+        
+        .page-footer .footer-legal .legal-links .item:last-child {
+          border-right: none;
+        }
+        
+        .page-footer .footer-legal .legal-links .item h5 {
+          font-size: 11px;
+          margin-top: 0;
+          margin-bottom: 0;
+          color: black;
+        }
+        
+        .page-footer .region {
+          margin-bottom: 20px;
+        }
+        
+        .page-footer .region a {
+          color: #555;
+          font-size: 11px;
+        }
+        
+        .page-footer .region img {
+          margin-right: 7px;
+        }
+        
+              </style>
+    <!-- <button onclick="logout()">Logout</button> -->
                 
-                <!-- <img id="profilePic"/> -->
-                <input type="file" class="button w-button" id="profilePicUpdate">
+    <header>
+        <nav class="navbar navbar-light navbar-expand-md" id="navbar navbar-light navbar-expand-md">
+        </nav>
+        </header>
+        <hr>
 
+
+            <img id="profilePic">
+            <div id="fileChoose">
+                <input type="file" class="button w-button" id="profilePicUpdate">
+            </div> 
                 <div class="second-container">
                     <div class="settings-container">
                         <div class="settings-block">
@@ -66,7 +134,7 @@
                                                 id="email"></div>
                                         <input type="submit" value="Save changes" data-wait="Please wait..."
                                             class="button hide w-button">
-                                        <a href="#" class="button w-button" id="buttonOne">Save changes</a>
+                                        
 
                                         <!-- <input type="submit" value="Reset password" data-wait="Please wait..." class="button hide w-button">
                                     <a href="#" class="button w-button">Reset Password</a> -->
@@ -147,7 +215,6 @@
                                     </div>
                                 </div>
                             </div>
-                            
 
                             <!-- <div class="account-settings-box">
                             <h2 class="heading">Linked Accounts</h2>
@@ -245,6 +312,18 @@
             </div>
           </div> -->
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Horizontal ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7375625871168388"
+     data-ad-slot="5662614973"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -314,7 +393,11 @@
     <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
     <!-- <script type="text/javascript" src="/static/settings.js"></script> -->
     <script type="text/javascript" src="/public/settings.js"></script>
-    <!-- <script type="text/javascript" src="usednavbar.js"></script> -->
+    <!-- <script type="text/javascript" src="/static/settings.js"></script> -->
+    <script src="/navbarSettings.js"></script>
+
+
+
 </body>
 
 </html>

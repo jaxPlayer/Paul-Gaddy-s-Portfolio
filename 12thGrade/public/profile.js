@@ -1,7 +1,3 @@
-const firebaseConfig = {
-//I took out the api keys
-};
-firebase.initializeApp(firebaseConfig);
 const myimg = document.getElementById('myimg');
 const profilePic = document.getElementById('profilePic');
 const str = window.location.href;

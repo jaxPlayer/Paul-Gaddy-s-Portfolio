@@ -1,483 +1,13 @@
-/* img {
+img {
   width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  vertical-align: middle;
-  display: inline-block;
-  margin-top: 10px;
-} */
-#myimg {
-  width: 25px;
-  height: 25px;
+  /* height: 25px;*/
   border-radius: 50%;
   vertical-align: middle;
   display: inline-block;
   margin-top: 10px;
 }
 
-@media (width: 1280px) {
-  .navbar.navbar-light.navbar-expand-md {
-    margin-left: -114px;
-    width: 901px;
-  }
-
-  .navbar-brand {
-    padding-left: 45px;
-    margin-left: 88px;
-    margin-top: 20px;
-  }
-
-  /* input .search {
-    width: 319px;
-    padding-left: 70px;
-    margin-left: 165px;
-  } */
-
-  #navcol-1 {
-    width: 770px;
-    padding-left: 266px;
-    border-style: none;
-    margin-left: -90px;
-  }
-
-  .nav.navbar-nav {
-    width: 383px;
-    margin-left: -34px;
-  }
-
-  .btn.btn-primary {
-    height: 38px;
-    margin-left: 18px;
-  }
-
-  #empresa-1 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-  }
-
-  #empresa {
-    padding: 20px;
-    margin: 1px;
-    background-color: white;
-    padding-top: 101px;
-    height: 335.875px;
-  }
-
-  #network {
-    width: 150px;
-    margin-left: 119px;
-  }
-
-  #attendance {
-    margin-left: 55px;
-    margin-top: 53px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-top: 83px;
-  }
-
-  #handshake {
-    margin-left: 126px;
-    margin-top: 49px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-left: -4px;
-    margin-top: 50px;
-  }
-
-  #empresa-2 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-    margin-left: 6px;
-    margin-top: 4px;
-    padding-top: 105px;
-  }
-
-  .col {
-    padding: 20px 12px;
-    padding-left: 233px;
-    padding-top: 46px;
-    padding-bottom: 46px;
-  }
-
-  .btn.btn-primary {
-    width: 120px;
-    height: 50px;
-    padding: 6px 30px;
-    padding-left: 21px;
-  }
-
-  .page-footer {
-    margin: 0;
-  }
-
-  .img-fluid {
-    width: 25px;
-    height: 25px;
-  }
-
-  .form-control {
-    padding-left: -166px;
-    margin-left: -4px;
-  }
-}
-
-@media (width: 1440px) {
-  .navbar.navbar-light.navbar-expand-md {
-    margin-left: -114px;
-    width: 901px;
-  }
-
-  .navbar-brand {
-    padding-left: 45px;
-    margin-left: 88px;
-    margin-top: 20px;
-  }
-
-  input {
-    width: 319px;
-    padding-left: 70px;
-    margin-left: 165px;
-  }
-
-  #navcol-1 {
-    width: 770px;
-    padding-left: 266px;
-    border-style: none;
-    margin-left: -85px;
-  }
-
-  .nav.navbar-nav {
-    width: 383px;
-    margin-left: -34px;
-  }
-
-  .btn.btn-primary {
-    height: 38px;
-    margin-left: 18px;
-  }
-
-  #empresa-1 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-  }
-
-  #empresa {
-    padding: 20px;
-    margin: 1px;
-    background-color: white;
-    padding-top: 101px;
-    height: 335.875px;
-  }
-
-  #network {
-    width: 150px;
-    margin-left: 119px;
-  }
-
-  #attendance {
-    margin-left: 55px;
-    margin-top: 53px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-top: 83px;
-  }
-
-  #handshake {
-    margin-left: 126px;
-    margin-top: 49px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-left: -4px;
-    margin-top: 50px;
-  }
-
-  #empresa-2 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-    margin-left: 6px;
-    margin-top: 4px;
-    padding-top: 105px;
-  }
-
-  .col {
-    padding: 20px 12px;
-    padding-left: 233px;
-    padding-top: 46px;
-    padding-bottom: 46px;
-  }
-
-  .btn.btn-primary {
-    width: 120px;
-    height: 50px;
-    padding: 6px 30px;
-    padding-left: 21px;
-  }
-
-  .page-footer {
-    margin: 0;
-  }
-
-  .img-fluid {
-    width: 25px;
-    height: 25px;
-  }
-
-  .form-control {
-    padding-left: -166px;
-    margin-left: -4px;
-  }
-}
-
-@media (width: 1368px) {
-  .navbar.navbar-light.navbar-expand-md {
-    margin-left: -114px;
-    width: 901px;
-    padding-left: 128px;
-  }
-
-  .navbar-brand {
-    padding-left: 45px;
-    margin-left: -25px;
-    margin-top: 20px;
-  }
-
-  input {
-    width: 319px;
-    padding-left: 70px;
-    margin-left: 165px;
-  }
-
-  #navcol-1 {
-    width: 770px;
-    padding-left: 266px;
-    border-style: none;
-    margin-left: -38px;
-  }
-
-  .nav.navbar-nav {
-    width: 383px;
-    margin-left: -34px;
-  }
-
-  .btn.btn-primary {
-    height: 38px;
-    margin-left: 18px;
-  }
-
-  #empresa-1 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-  }
-
-  #empresa {
-    padding: 20px;
-    margin: 1px;
-    background-color: white;
-    padding-top: 101px;
-    height: 335.875px;
-  }
-
-  #network {
-    width: 150px;
-    margin-left: 119px;
-  }
-
-  #attendance {
-    margin-left: 55px;
-    margin-top: 53px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-top: 83px;
-  }
-
-  #handshake {
-    margin-left: 126px;
-    margin-top: 49px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-left: -4px;
-    margin-top: 50px;
-  }
-
-  #empresa-2 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-    margin-left: 6px;
-    margin-top: 4px;
-    padding-top: 105px;
-  }
-
-  .col {
-    padding: 20px 12px;
-    padding-left: 233px;
-    padding-top: 46px;
-    padding-bottom: 46px;
-  }
-
-  .btn.btn-primary {
-    width: 120px;
-    height: 50px;
-    padding: 6px 30px;
-    padding-left: 21px;
-  }
-
-  .page-footer {
-    margin: 0;
-  }
-
-  .img-fluid {
-    width: 25px;
-    height: 25px;
-  }
-
-  .form-control {
-    padding-left: -166px;
-    margin-left: -4px;
-  }
-}
-
-@media (width: 1440px) {
-  .navbar.navbar-light.navbar-expand-md {
-    margin-left: -114px;
-    width: 901px;
-    padding-left: 128px;
-  }
-
-  .navbar-brand {
-    padding-left: 45px;
-    margin-left: -25px;
-    margin-top: 20px;
-  }
-
-  input {
-    width: 319px;
-    padding-left: 70px;
-    margin-left: 165px;
-  }
-
-  #navcol-1 {
-    width: 770px;
-    padding-left: 266px;
-    border-style: none;
-    margin-left: -38px;
-  }
-
-  .nav.navbar-nav {
-    width: 383px;
-    margin-left: -34px;
-  }
-
-  .btn.btn-primary {
-    height: 38px;
-    margin-left: 18px;
-  }
-
-  #empresa-1 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-  }
-
-  #empresa {
-    padding: 20px;
-    margin: 1px;
-    background-color: white;
-    padding-top: 101px;
-    height: 335.875px;
-  }
-
-  #network {
-    width: 150px;
-    margin-left: 119px;
-  }
-
-  #attendance {
-    margin-left: 55px;
-    margin-top: 53px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-top: 83px;
-  }
-
-  #handshake {
-    margin-left: 126px;
-    margin-top: 49px;
-    width: 150px;
-  }
-
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-left: -4px;
-    margin-top: 50px;
-  }
-
-  #empresa-2 {
-    padding: 20px;
-    margin: 1px;
-    background-color: rgb(228, 240, 255);
-    height: 335.875px;
-    margin-left: 6px;
-    margin-top: 4px;
-    padding-top: 105px;
-  }
-
-  .col {
-    padding: 20px 12px;
-    padding-left: 233px;
-    padding-top: 46px;
-    padding-bottom: 46px;
-  }
-
-  .btn.btn-primary {
-    width: 120px;
-    height: 50px;
-    padding: 6px 30px;
-    padding-left: 21px;
-  }
-
-  .page-footer {
-    margin: 0;
-  }
-
-  .img-fluid {
-    width: 25px;
-    height: 25px;
-  }
-
-  .form-control {
-    padding-left: -166px;
-    margin-left: -4px;
-  }
-}
-
-@media (width: 1600px) {
+@media (max-width: 2880px) {
   .navbar.navbar-light.navbar-expand-md {
     margin-left: -114px;
     width: 901px;
@@ -490,7 +20,7 @@
 
   .navbar-brand {
     padding-left: 45px;
-    margin-left: -25px;
+    margin-left: 242px;
     margin-top: 20px;
   }
 
@@ -503,13 +33,13 @@
   #navcol-1 {
     border-style: none;
     padding-left: 267px;
-    width: 889px;
-    margin-left: 189px;
+    width: 789px;
+    margin-left: 755px;
   }
 
   .nav.navbar-nav {
-    width: 383px;
-    margin-left: -34px;
+    width: 600px;
+    margin-left: -104px;
   }
 
   .btn.btn-primary {
@@ -540,12 +70,13 @@
 
   #attendance {
     margin-left: 55px;
-    margin-top: 53px;
-    width: 150px;
+    margin-top: 98px;
+    width: 200px;
+    height: 150px;
   }
 
   .col-sm-6.col-md-7.col-lg-7 {
-    margin-top: 83px;
+    margin-top: 90px;
   }
 
   #handshake {
@@ -556,7 +87,7 @@
 
   .col-sm-6.col-md-7.col-lg-7 {
     margin-left: -4px;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
   #empresa-2 {
@@ -596,10 +127,17 @@
     padding-left: -166px;
     margin-left: -4px;
   }
+
+  #attendance-2 {
+    margin-left: 55px;
+    margin-top: 33px;
+    width: 200px;
+    height: 150px;
+  }
+
 }
 
-@media (width: 1679px),
-screen and (max-height: 1000px) {
+@media (max-width: 1920px) {
   .navbar.navbar-light.navbar-expand-md {
     margin-left: -114px;
     width: 901px;
@@ -613,28 +151,28 @@ screen and (max-height: 1000px) {
   } */
 
   .row {
-    margin-top: -55px;
+    margin-top: -30px;
     text-align: center;
   }
 
   .navbar-brand {
     padding-left: 45px;
     margin-left: -25px;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   #navcol-1 {
     border-style: none;
     padding-left: 167px;
     width: 1500px;
-    margin-left: 400px;
-    margin-top: 40px;
+    margin-left: 280px;
+    margin-top: 20px;
   }
 
   .nav.navbar-nav {
     width: 736px;
-    margin-left: 122px;
-    margin-top: -15px;
+    margin-left: 492px;
+    margin-top: 0.5px;
   }
 
   .btn.btn-primary {
@@ -652,28 +190,54 @@ screen and (max-height: 1000px) {
   } */
 
   #empresa-1 {
-    padding: 20px;
+    padding: 0;
+    /* margin: 1px; */
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa-2 {
+    padding: 105px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+  }
+
+  #empresa-3 {
+    padding: 140px;
     margin: 1px;
     background-color: rgb(228, 240, 255);
     height: 335.875px;
   }
 
-  #empresa {
-    padding: 20px;
+  #empresa-4 {
+    padding: 100px;
     margin: 1px;
     background-color: white;
-    padding-top: 101px;
     height: 335.875px;
+  }
+
+  #empresa-5 {
+    padding: 10px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    padding-top: 110px;
+    height: 335.875px;
+  }
+
+  button a {
+    color: white;
   }
 
   #network {
     width: 150px;
     margin-left: 119px;
+    /* padding-top: 60px; */
   }
 
   #attendance {
     margin-left: 55px;
-    margin-top: 53px;
+    margin-top: -10px;
     width: 150px;
     height: 150px;
   }
@@ -687,16 +251,25 @@ screen and (max-height: 1000px) {
 
   #attendance-1 {
     margin-left: 55px;
-    margin-top: 53px;
+    margin-top: 23px;
     width: 150px;
     height: 150px;
   }
 
   #handshake {
     margin-left: 126px;
-    margin-top: 49px;
+    margin-top: 19px;
     width: 150px;
     height: 150px;
+  }
+
+  #signup {
+    margin-top: 10px;
+    background-color: rgb(0, 93, 255);
+    border-radius: 12px;
+    height: 60px;
+    width: 120px;
+    border-style: none
   }
 
   .col-sm-6.col-md-7.col-lg-7 {
@@ -704,7 +277,7 @@ screen and (max-height: 1000px) {
     margin-top: 16px;
   }
 
-  #empresa-2 {
+  /* #empresa-2 {
     padding: 20px;
     margin: 1px;
     background-color: rgb(228, 240, 255);
@@ -712,7 +285,7 @@ screen and (max-height: 1000px) {
     margin-left: 6px;
     margin-top: 4px;
     padding-top: 105px;
-  }
+  } */
 
   .col {
     padding: 20px 12px;
@@ -743,60 +316,100 @@ screen and (max-height: 1000px) {
   }
 }
 
-@media (width: 1920px) {
+@media (min-width:1623px) and (max-width: 1680px) {
   .navbar.navbar-light.navbar-expand-md {
     margin-left: -114px;
-    width: 1920px;
+    width: 901px;
     padding-left: 128px;
+    height: 80px;
   }
 
+  /* #logo {
+    width: 170px;
+    height: 170px;
+  } */
+
   .row {
-    margin-top: 1px;
+    margin-top: -30px;
+    text-align: center;
   }
 
   .navbar-brand {
     padding-left: 45px;
     margin-left: -25px;
-    margin-top: 20px;
-  }
-
-  input {
-    width: 619px;
-    padding-left: 70px;
-    margin-left: 165px;
+    margin-top: -5px;
   }
 
   #navcol-1 {
     border-style: none;
-    padding-left: 267px;
-    width: 889px;
-    margin-left: 493px;
+    padding-left: 167px;
+    width: 1250px;
+    margin-left: 200px;
+    margin-top: 30px;
   }
 
   .nav.navbar-nav {
-    width: 383px;
-    margin-left: -34px;
+    width: 1336px;
+    margin-left: 322px;
+    margin-top: -15px;
   }
 
   .btn.btn-primary {
     height: 38px;
     margin-left: 18px;
     padding-left: 20px;
+    /* margin-top: 40px; */
   }
 
+  /* .lastbutton {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    margin-top: 40px;
+  } */
+
   #empresa-1 {
-    padding: 20px;
+    padding: 0px;
     margin: 1px;
     background-color: rgb(228, 240, 255);
     height: 335.875px;
+    font-size: 20px;
   }
 
-  #empresa {
-    padding: 20px;
+  #empresa-2 {
+    padding: 105px;
     margin: 1px;
     background-color: white;
-    padding-top: 101px;
     height: 335.875px;
+    font-size: 20px;
+  }
+
+  #empresa-3 {
+    padding: 130px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    font-size: 20px;
+  }
+
+  #empresa-4 {
+    padding: 100px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+    font-size: 20px;
+  }
+
+  #empresa-5 {
+    padding: 70px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    font-size: 20px;
+  }
+
+  button a {
+    color: white;
   }
 
   #network {
@@ -806,26 +419,48 @@ screen and (max-height: 1000px) {
 
   #attendance {
     margin-left: 55px;
-    margin-top: 53px;
+    margin-top: 5px;
     width: 150px;
+    height: 150px;
   }
 
-  .col-sm-6.col-md-7.col-lg-7 {
-    margin-top: 83px;
+  #pic1 {
+    margin-left: 55px;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #attendance-1 {
+    margin-left: 55px;
+    margin-top: 53px;
+    width: 150px;
+    height: 150px;
   }
 
   #handshake {
     margin-left: 126px;
-    margin-top: 49px;
+    margin-top: 30px;
     width: 150px;
+    height: 150px;
+  }
+
+  #signup {
+    margin-top: 25px;
+    background-color: rgb(0, 93, 255);
+    border-radius: 12px;
+    height: 60px;
+    width: 120px;
+    border-style: none;
+    font-size: 25px;
   }
 
   .col-sm-6.col-md-7.col-lg-7 {
     margin-left: -4px;
-    margin-top: 50px;
+    margin-top: 16px;
   }
 
-  #empresa-2 {
+  /* #empresa-2 {
     padding: 20px;
     margin: 1px;
     background-color: rgb(228, 240, 255);
@@ -833,7 +468,7 @@ screen and (max-height: 1000px) {
     margin-left: 6px;
     margin-top: 4px;
     padding-top: 105px;
-  }
+  } */
 
   .col {
     padding: 20px 12px;
@@ -843,14 +478,10 @@ screen and (max-height: 1000px) {
   }
 
   .btn.btn-primary {
-    width: 120px;
+    width: 140px;
     height: 50px;
     padding: 6px 30px;
     padding-left: 21px;
-  }
-
-  .page-footer {
-    margin: 0;
   }
 
   .img-fluid {
@@ -864,15 +495,202 @@ screen and (max-height: 1000px) {
   }
 }
 
-@media (width: 2880px) {
+@media (min-width:1599px) and (max-width: 1622px) {
   .navbar.navbar-light.navbar-expand-md {
     margin-left: -114px;
     width: 901px;
     padding-left: 128px;
+    height: 80px;
   }
 
+  /* #logo {
+    width: 170px;
+    height: 170px;
+  } */
+
   .row {
-    margin-top: 1px;
+    margin-top: -30px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding-left: 45px;
+    margin-left: -25px;
+    margin-top: -20px;
+  }
+
+  #navcol-1 {
+    border-style: none;
+    padding-left: 167px;
+    width: 1500px;
+    margin-left: 1280px;
+    margin-top: 30px;
+  }
+
+  .nav.navbar-nav {
+    width: 736px;
+    margin-left: 322px;
+    margin-top: 0.5px;
+  }
+
+  .btn.btn-primary {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    /* margin-top: 40px; */
+  }
+
+  /* .lastbutton {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    margin-top: 40px;
+  } */
+
+  #empresa-1 {
+    padding: 0px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    font-size: 25px;
+  }
+
+  #empresa-2 {
+    padding: 105px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+    font-size: 25px;
+  }
+
+  #empresa-3 {
+    padding: 130px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    font-size: 25px;
+  }
+
+  #empresa-4 {
+    padding: 100px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+    font-size: 25px;
+  }
+
+  #empresa-5 {
+    padding: 70px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+    font-size: 25px;
+  }
+
+  button a {
+    color: white;
+  }
+
+  #network {
+    width: 150px;
+    margin-left: 119px;
+  }
+
+  #attendance {
+    margin-left: 55px;
+    margin-top: 5px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #pic1 {
+    margin-left: 55px;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #attendance-1 {
+    margin-left: 55px;
+    margin-top: 53px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #handshake {
+    margin-left: 126px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #signup {
+    margin-top: 10px;
+    background-color: rgb(0, 93, 255);
+    border-radius: 12px;
+    height: 60px;
+    width: 120px;
+    border-style: none;
+    font-size: 25px;
+  }
+
+  .col-sm-6.col-md-7.col-lg-7 {
+    margin-left: -4px;
+    margin-top: 16px;
+  }
+
+  /* #empresa-2 {
+    padding: 20px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    margin-left: 6px;
+    margin-top: 4px;
+    padding-top: 105px;
+  } */
+
+  .col {
+    padding: 20px 12px;
+    padding-left: 233px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .btn.btn-primary {
+    width: 140px;
+    height: 50px;
+    padding: 6px 30px;
+    padding-left: 21px;
+  }
+
+  .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form-control {
+    padding-left: -166px;
+    margin-left: -4px;
+  }
+
+}
+
+@media (min-width:1499px) and (max-width: 1601px) {
+  .navbar.navbar-light.navbar-expand-md {
+    margin-left: -114px;
+    width: 901px;
+    padding-left: 128px;
+    height: 50px;
+  }
+
+  /* #logo {
+    width: 170px;
+    height: 170px;
+  } */
+
+  .row {
+    margin-top: -30px;
+    text-align: center;
   }
 
   .navbar-brand {
@@ -881,22 +699,191 @@ screen and (max-height: 1000px) {
     margin-top: 20px;
   }
 
-  input {
-    width: 319px;
-    padding-left: 70px;
-    margin-left: 165px;
+  #navcol-1 {
+    border-style: none;
+    padding-left: 167px;
+    width: 1500px;
+    margin-left: 280px;
+    margin-top: 20px;
+  }
+
+  .nav.navbar-nav {
+    width: 736px;
+    margin-left: 122px;
+    margin-top: 0.5px;
+  }
+
+  .btn.btn-primary {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    /* margin-top: 40px; */
+  }
+
+  /* .lastbutton {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    margin-top: 40px;
+  } */
+
+  #empresa-1 {
+    padding: 0px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa-2 {
+    padding: 45px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+  }
+
+  #empresa-3 {
+    padding: 90px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa-4 {
+    padding: 60px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+  }
+
+  #empresa-5 {
+    padding: 10px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    padding-top: 40px;
+    height: 335.875px;
+  }
+
+  button a {
+    color: white;
+  }
+
+  #network {
+    width: 150px;
+    margin-left: 119px;
+  }
+
+  #attendance {
+    margin-left: 55px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #pic1 {
+    margin-left: 55px;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #attendance-1 {
+    margin-left: 55px;
+    margin-top: 53px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #handshake {
+    margin-left: 126px;
+    margin-top: 49px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #signup {
+    margin-top: 80px;
+    background-color: rgb(0, 93, 255);
+    border-radius: 12px;
+    height: 60px;
+    width: 120px;
+    border-style: none
+  }
+
+  .col-sm-6.col-md-7.col-lg-7 {
+    margin-left: -4px;
+    margin-top: 16px;
+  }
+
+  /* #empresa-2 {
+    padding: 20px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    margin-left: 6px;
+    margin-top: 4px;
+    padding-top: 105px;
+  } */
+
+  .col {
+    padding: 20px 12px;
+    padding-left: 233px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .btn.btn-primary {
+    width: 140px;
+    height: 50px;
+    padding: 6px 30px;
+    padding-left: 21px;
+  }
+
+  .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form-control {
+    padding-left: -166px;
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .navbar.navbar-light.navbar-expand-md {
+    margin-left: -114px;
+    width: 901px;
+    padding-left: 128px;
+    height: 50px;
+  }
+
+  #logo {
+    width: 170px;
+    height: 170px;
+  }
+
+  .row {
+    margin-top: -55px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding-left: 45px;
+    margin-left: -25px;
+    margin-top: 20px;
   }
 
   #navcol-1 {
     border-style: none;
-    padding-left: 267px;
-    width: 789px;
-    margin-left: 1389px;
+    padding-left: 167px;
+    width: 889px;
+    margin-left: 550px;
+    margin-top: 40px;
   }
 
   .nav.navbar-nav {
-    width: 683px;
-    margin-left: -34px;
+    width: 600px;
+    margin-left: -104px;
   }
 
   .btn.btn-primary {
@@ -927,12 +914,645 @@ screen and (max-height: 1000px) {
 
   #attendance {
     margin-left: 55px;
-    margin-top: 53px;
-    width: 150px;
+    margin-top: 110px;
+    width: 200px;
+    height: 150px;
+  }
+
+  #attendance-1 {
+    margin-left: 55px;
+    margin-top: 110px;
+    width: 300px;
+    height: 150px;
+  }
+
+  #attendance-2 {
+    margin-left: 55px;
+    margin-top: 33px;
+    width: 200px;
+    height: 150px;
+  }
+
+
+  .col-sm-6.col-md-7.col-lg-7 {
+    margin-top: 90px;
+  }
+
+  #handshake {
+    margin-left: 126px;
+    margin-top: 49px;
+    width: 300px;
+    height: 150px;
   }
 
   .col-sm-6.col-md-7.col-lg-7 {
-    margin-top: 83px;
+    margin-left: -4px;
+    margin-top: 90px;
+  }
+
+  #empresa-2 {
+    padding: 20px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    margin-left: 6px;
+    margin-top: 4px;
+    padding-top: 105px;
+  }
+
+  .col {
+    padding: 20px 12px;
+    padding-left: 233px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .btn.btn-primary {
+    width: 140px;
+    height: 50px;
+    padding: 6px 30px;
+    padding-left: 21px;
+  }
+
+  .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form-control {
+    padding-left: -166px;
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .navbar.navbar-light.navbar-expand-md {
+    margin-left: -114px;
+    width: 901px;
+    padding-left: 128px;
+    height: 50px;
+  }
+
+  /* #logo {
+    width: 170px;
+    height: 170px;
+  } */
+
+  .row {
+    margin-top: -30px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding-left: 45px;
+    margin-left: -25px;
+    margin-top: 20px;
+  }
+
+  #navcol-1 {
+    border-style: none;
+    padding-left: 277px;
+    width: 950px;
+    margin-left: 280px;
+    margin-top: 20px;
+  }
+
+  .nav.navbar-nav {
+    width: 736px;
+    margin-left: 30px;
+    margin-top: 0.5px;
+  }
+
+  .btn.btn-primary {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    /* margin-top: 40px; */
+  }
+
+  /* .lastbutton {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    margin-top: 40px;
+  } */
+  #empresa-1 {
+    padding: 0px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    width: 100%;
+  }
+
+  #empresa-2 {
+    padding: 95px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+    width: 100%;
+  }
+
+  #empresa-3 {
+    padding: 120px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+    width: 100%;
+  }
+
+  #empresa-4 {
+    padding: 80px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+    width: 100%;
+  }
+
+  #empresa-5 {
+    padding: 90px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    padding-top: 40px;
+    height: 335.875px;
+    width: 100%;
+  }
+
+  #empresa-5 h1 {
+    padding-top: 70px;
+  }
+
+  button a {
+    color: white;
+  }
+
+  #network {
+    width: 150px;
+    margin-left: 119px;
+    margin-top: 10px;
+  }
+
+  #attendance {
+    margin-left: 55px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #pic1 {
+    margin-left: 55px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #attendance-1 {
+    margin-left: 55px;
+    margin-top: 53px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #handshake {
+    margin-left: 126px;
+    margin-top: 49px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #signup {
+    margin-top: 80px;
+    background-color: rgb(0, 93, 255);
+    border-radius: 12px;
+    height: 60px;
+    width: 120px;
+    border-style: none
+  }
+
+  .col-sm-6.col-md-7.col-lg-7 {
+    margin-left: -4px;
+    margin-top: 16px;
+  }
+
+  .col {
+    padding: 20px 12px;
+    padding-left: 233px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .btn.btn-primary {
+    width: 140px;
+    height: 50px;
+    padding: 6px 30px;
+    padding-left: 21px;
+  }
+
+  .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form-control {
+    padding-left: -166px;
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .navbar.navbar-light.navbar-expand-md {
+    margin-left: -114px;
+    width: 901px;
+    padding-left: 128px;
+    height: 50px;
+  }
+
+  /* #logo {
+    width: 170px;
+    height: 170px;
+  } */
+
+  .row {
+    margin-top: -30px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding-left: 45px;
+    margin-left: -25px;
+    margin-top: 0px;
+  }
+
+  #navcol-1 {
+    border-style: none;
+    padding-left: 167px;
+    width: 850px;
+    margin-left: 360px;
+    margin-top: 20px;
+  }
+
+  .nav.navbar-nav {
+    width: 736px;
+    margin-left: 0px;
+    margin-top: 0.5px;
+  }
+
+  .btn.btn-primary {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    /* margin-top: 40px; */
+  }
+
+  /* .lastbutton {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    margin-top: 40px;
+  } */
+  #empresa-1 {
+    padding: 0px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa-2 {
+    padding: 95px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+  }
+
+  #empresa-3 {
+    padding: 120px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa-4 {
+    padding: 80px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+  }
+
+  #empresa-5 {
+    padding: 90px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    padding-top: 40px;
+    height: 335.875px;
+  }
+
+  #empresa-5 h1 {
+    padding-top: 70px;
+  }
+
+  button a {
+    color: white;
+  }
+
+  #network {
+    width: 150px;
+    margin-left: 119px;
+    margin-top: 10px;
+  }
+
+  #attendance {
+    margin-left: 55px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #pic1 {
+    margin-left: 55px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #attendance-1 {
+    margin-left: 55px;
+    margin-top: 53px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #handshake {
+    margin-left: 126px;
+    margin-top: 49px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #signup {
+    margin-top: 80px;
+    background-color: rgb(0, 93, 255);
+    border-radius: 12px;
+    height: 60px;
+    width: 120px;
+    border-style: none
+  }
+
+  .col-sm-6.col-md-7.col-lg-7 {
+    margin-left: -4px;
+    margin-top: 16px;
+  }
+
+  .col {
+    padding: 20px 12px;
+    padding-left: 233px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .btn.btn-primary {
+    width: 140px;
+    height: 50px;
+    padding: 6px 30px;
+    padding-left: 21px;
+  }
+
+  .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form-control {
+    padding-left: -166px;
+    margin-left: -4px;
+  }
+}
+
+@media (min-width:1200px) and (max-width: 1280px) {
+  .navbar.navbar-light.navbar-expand-md {
+    margin-left: -114px;
+    width: 901px;
+    padding-left: 128px;
+    height: 50px;
+  }
+
+  /* #logo {
+    width: 170px;
+    height: 170px;
+  } */
+
+  .row {
+    margin-top: -30px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding-left: 45px;
+    margin-left: -25px;
+    margin-top: 20px;
+  }
+
+  #navcol-1 {
+    border-style: none;
+    padding-left: 167px;
+    width: 1500px;
+    margin-left: 280px;
+    margin-top: 20px;
+  }
+
+  .nav.navbar-nav {
+    width: 736px;
+    margin-left: -60px;
+    margin-top: 0.5px;
+  }
+
+  .btn.btn-primary {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    /* margin-top: 40px; */
+  }
+
+  /* .lastbutton {
+    height: 38px;
+    margin-left: 18px;
+    padding-left: 20px;
+    margin-top: 40px;
+  } */
+  #empresa-1 {
+    padding: 0px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa-2 {
+    padding: 95px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+  }
+
+  #empresa-3 {
+    padding: 120px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa-4 {
+    padding: 80px;
+    margin: 1px;
+    background-color: white;
+    height: 335.875px;
+  }
+
+  #empresa-5 {
+    padding: 90px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    padding-top: 40px;
+    height: 335.875px;
+  }
+
+  #empresa-5 h1 {
+    padding-top: 70px;
+  }
+
+  button a {
+    color: white;
+  }
+
+  #network {
+    width: 150px;
+    margin-left: 119px;
+    margin-top: 10px;
+  }
+
+  #attendance {
+    margin-left: 55px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #pic1 {
+    margin-left: 55px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #attendance-1 {
+    margin-left: 55px;
+    margin-top: 53px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #handshake {
+    margin-left: 126px;
+    margin-top: 49px;
+    width: 150px;
+    height: 150px;
+  }
+
+  #signup {
+    margin-top: 80px;
+    background-color: rgb(0, 93, 255);
+    border-radius: 12px;
+    height: 60px;
+    width: 120px;
+    border-style: none
+  }
+
+  .col-sm-6.col-md-7.col-lg-7 {
+    margin-left: -4px;
+    margin-top: 16px;
+  }
+
+  .col {
+    padding: 20px 12px;
+    padding-left: 233px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .btn.btn-primary {
+    width: 140px;
+    height: 50px;
+    padding: 6px 30px;
+    padding-left: 21px;
+  }
+
+  .img-fluid {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form-control {
+    padding-left: -166px;
+    margin-left: -4px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .navbar.navbar-light.navbar-expand-md {
+    margin-left: -114px;
+    width: 901px;
+  }
+
+  .navbar-brand {
+    padding-left: 7px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  #navcol-1 {
+    width: 725px;
+    padding-left: 266px;
+    border-style: none;
+    margin-left: 55px;
+  }
+
+  .nav.navbar-nav {
+    width: 630px;
+    margin-left: -90px;
+  }
+
+  .btn.btn-primary {
+    height: 38px;
+    margin-left: 18px;
+    width: 155px;
+
+  }
+
+  #empresa-1 {
+    padding: 20px;
+    margin: 1px;
+    background-color: rgb(228, 240, 255);
+    height: 335.875px;
+  }
+
+  #empresa {
+    padding: 20px;
+    margin: 1px;
+    background-color: white;
+    padding-top: 101px;
+    height: 335.875px;
+  }
+
+  #network {
+    width: 150px;
+    margin-left: 119px;
+  }
+
+  #attendance {
+    margin-left: 55px;
+    margin-top: 110px;
+    width: 200px;
+  }
+
+  .col-sm-6.col-md-7.col-lg-7 {
+    margin-top: 90px;
   }
 
   #handshake {
@@ -943,7 +1563,7 @@ screen and (max-height: 1000px) {
 
   .col-sm-6.col-md-7.col-lg-7 {
     margin-left: -4px;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
   #empresa-2 {
@@ -970,10 +1590,6 @@ screen and (max-height: 1000px) {
     padding-left: 21px;
   }
 
-  .page-footer {
-    margin: 0;
-  }
-
   .img-fluid {
     width: 25px;
     height: 25px;
@@ -983,4 +1599,25 @@ screen and (max-height: 1000px) {
     padding-left: -166px;
     margin-left: -4px;
   }
+
+  #attendance-2 {
+    margin-left: 55px;
+    margin-top: 33px;
+    width: 200px;
+    height: 150px;
+  }
+
+}
+
+
+#collabDiv {
+  margin-top: 50px;
+}
+
+#joinNowDiv {
+  margin-top: 50px;
+}
+
+#networkDiv {
+  margin-top: 50px;
 }
