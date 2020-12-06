@@ -1,11 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBL293eJKM-rIwngXB9GnoNoosd0liZtb0",
-  authDomain: "messenger-bf335.firebaseapp.com",
-  databaseURL: "https://messenger-bf335.firebaseio.com",
-  projectId: "messenger-bf335",
-  storageBucket: "messenger-bf335.appspot.com",
-  messagingSenderId: "121892600293",
-  appId: "1:121892600293:web:fe3d8aada3c884d74f970c"
+
 };
 firebase.initializeApp(firebaseConfig);
 
