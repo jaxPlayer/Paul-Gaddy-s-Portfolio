@@ -1,12 +1,5 @@
   const firebaseConfig = {
-    apiKey: "AIzaSyBZeQmL3ufHjnF5Eyu2tqhg-FIek6PB1jc",
-    authDomain: "cnc-9562d.firebaseapp.com",
-    databaseURL: "https://cnc-9562d.firebaseio.com",
-    projectId: "cnc-9562d",
-    storageBucket: "cnc-9562d.appspot.com",
-    messagingSenderId: "590718245957",
-    appId: "1:590718245957:web:0ac447782af0b73842572c",
-    measurementId: "G-79048RDBW7"
+
 };
 firebase.initializeApp(firebaseConfig);
 
